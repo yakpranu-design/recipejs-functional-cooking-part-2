@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe App - Filters & Sorting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>🍽 Recipe List</h2>
+
+  <!-- FILTER BUTTONS -->
+  <h3>Filter</h3>
+  <button onclick="setFilter('ALL')">All Recipes</button>
+  <button onclick="setFilter('EASY')">Easy</button>
+  <button onclick="setFilter('MEDIUM')">Medium</button>
+  <button onclick="setFilter('HARD')">Hard</button>
+  <button onclick="setFilter('QUICK')">Quick (Under 30 min)</button>
+
+  <!-- SORT BUTTONS -->
+  <h3>Sort</h3>
+  <button onclick="setSort('NAME')">Name (A–Z)</button>
+  <button onclick="setSort('TIME')">Time (Fastest First)</button>
+
+  <hr>
+
+  <!-- RECIPE DISPLAY AREA -->
+  <div id="recipeContainer"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

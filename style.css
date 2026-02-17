@@ -1,0 +1,67 @@
+/* ===============================
+   GENERAL STYLING
+================================= */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* ===============================
+   BUTTONS
+================================= */
+
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+/* ===============================
+   RECIPE CARD
+================================= */
+
+#recipeContainer {
+  margin-top: 20px;
+}
+
+.recipe {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+}
+
+.recipe:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.recipe strong {
+  font-size: 18px;
+}
